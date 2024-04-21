@@ -39,21 +39,19 @@ function Navbar() {
     };
 
     useEffect(() => {
-        const user = localStorage.getItem('user')
+        const userLS = localStorage.getItem('user')
+        if (userLS) {
+            const user = JSON.parse(userLS)
+            setUser(user)
 
-
-        if (user) {
-            const userData = JSON.parse(user)
-            setUser(userData)
-
-            if (userData?.role === "manager") {
+            if (user?.role === "manager") {
                 pages.push({
                     title: 'Manage',
                     link: "/manage"
                 })
             }
         }
-    }, [])
+    }, [pathName])
 
 
     return (
