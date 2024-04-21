@@ -1,0 +1,11 @@
+.input {
+ @apply w-full max-w-6xl h-8 outline-none rounded-sm px-3 border-b-2 border-orange-500 text-black;
+}
+
+.input:focus {
+ @apply bg-opacity-20 bg-gray-400 duration-300;
+}
+
+.label {
+ @apply text-orange-400;
+}

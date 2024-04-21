@@ -1,0 +1,21 @@
+.container {
+ @apply flex justify-center items-center;
+}
+
+.btnWrapper {
+ @apply mt-4 flex flex-col h-20 justify-between;
+}
+.btnWrapper > button:last-child {
+ @apply py-2 mt-2;
+}
+.btnWrapper > button:last-child:hover {
+ @apply bg-gray-300 bg-opacity-15;
+}
+
+.heading {
+ @apply text-center text-3xl  text-orange-400 mb-3;
+}
+
+.roleText {
+ @apply text-orange-400 my-4 inline-block ml-2;
+}

@@ -1,0 +1,15 @@
+.footer {
+ @apply p-6;
+ background-color: #e6ffe9;
+}
+
+.socialList {
+ @apply flex justify-center;
+}
+.listItem {
+ @apply flex mb-2 text-orange-400 mr-6;
+}
+
+.icon {
+ @apply mr-2;
+}

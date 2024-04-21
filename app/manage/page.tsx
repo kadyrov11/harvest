@@ -1,5 +1,5 @@
-const FeedPage = () => {
-    return <></>
+const ManagePage = () => {
+    return <>Manage</>
 }
 
-export default FeedPage
+export default ManagePage

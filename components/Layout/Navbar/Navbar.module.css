@@ -1,0 +1,32 @@
+.header {
+ @apply flex justify-between items-center fixed top-0 left-0 w-full px-8 py-2 text-xl;
+ background-color: #e6ffe9;
+}
+
+.navList {
+ @apply flex h-fit ml-16;
+}
+
+.navbar {
+ @apply flex  items-center;
+}
+
+.active {
+ color: orange;
+}
+
+.authContainer {
+ @apply flex;
+}
+
+.listItem:not(:last-child) {
+ margin-right: 10px;
+}
+
+.authContainer > button {
+ @apply px-4 rounded-md mr-4 duration-300;
+}
+
+.authContainer > button:hover {
+ background-color: rgba(83, 80, 80, 0.247);
+}

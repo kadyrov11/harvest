@@ -1,0 +1,32 @@
+.description {
+ @apply max-w-3xl ml-20;
+}
+.aboutWrapper {
+ @apply flex justify-center;
+}
+.aboutImg {
+ @apply w-1/6;
+}
+.roleList {
+ @apply flex w-full justify-around;
+}
+
+.listItem {
+ @apply w-1/5 text-center pb-3 border-b-2 border-transparent text-lg;
+}
+
+.listItem:hover {
+ @apply border-b-orange-400 border-b-2 duration-200;
+}
+
+.img {
+ @apply w-full mb-3 max-h-64 rounded-md;
+}
+
+.sponsorsWrapper {
+ @apply flex flex-col text-center items-center;
+}
+
+.sponsorsHeading {
+ @apply text-3xl font-bold;
+}

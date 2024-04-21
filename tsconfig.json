@@ -10,6 +10,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "baseUrl": "./",
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
@@ -18,7 +19,20 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/api/*": ["api/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/utils/*": ["utils/*"],
+      "@/store/*": ["store/*"],
+      "@/shared/*": ["shared/*"],
+      "@/assets/*": ["assets/*"],
+      "@/configs/*": ["configs/*"],
+      "@/styles/*": ["styles/*"],
+      "@/services/*": ["services/*"],
+      "@/providers/*": ["providers/*"],
+      
+      "@/ui/*": ["components/ui/*"],
+      "@/components/*": ["components/*"],
+      "@/screens/*": ["components/screens/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

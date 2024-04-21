@@ -1,0 +1,9 @@
+.title {
+ @apply text-center text-3xl mb-8 font-bold;
+
+ text-transform: capitalize;
+}
+
+.description {
+ @apply text-lg;
+}
