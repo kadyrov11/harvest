@@ -1,5 +1,7 @@
+import About from "@/components/screens/About"
+
 const AboutPage = () => {
-    return <>About</>
+    return <About />
 }
 
 export default AboutPage
